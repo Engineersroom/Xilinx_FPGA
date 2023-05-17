@@ -1,0 +1,471 @@
+
+*** Running vivado
+    with args -log Main_BD_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main_BD_wrapper.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source Main_BD_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.srcs/utils_1/imports/synth_1/Main_BD_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.srcs/utils_1/imports/synth_1/Main_BD_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Main_BD_wrapper -part xcku5p-ffvb676-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcku5p'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku5p'
+INFO: [Device 21-403] Loading part xcku5p-ffvb676-2-e
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 40740
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2013.555 ; gain = 370.664
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_wrapper' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/hdl/Main_BD_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:12]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_axi_gpio_0_0' [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_axi_gpio_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_axi_gpio_0_0' (0#1) [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_axi_gpio_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_axi_uartlite_0_0' [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_axi_uartlite_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_axi_uartlite_0_0' (0#1) [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_axi_uartlite_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'Main_BD_axi_uartlite_0_0' is unconnected for instance 'axi_uartlite_0' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:157]
+WARNING: [Synth 8-7023] instance 'axi_uartlite_0' of module 'Main_BD_axi_uartlite_0_0' has 22 connections declared, but only 21 given [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:157]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_clk_wiz_1_0' [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_clk_wiz_1_0' (0#1) [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_mdm_1_0' [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_mdm_1_0' (0#1) [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_microblaze_0_0' [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_microblaze_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_microblaze_0_0' (0#1) [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_microblaze_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'Interrupt_Ack' of module 'Main_BD_microblaze_0_0' is unconnected for instance 'microblaze_0' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:199]
+WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'Main_BD_microblaze_0_0' has 52 connections declared, but only 51 given [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:199]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_microblaze_0_axi_periph_0' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:346]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_19TXFFX' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:796]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_19TXFFX' (0#1) [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:796]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_9L1KBY' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:928]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_9L1KBY' (0#1) [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:928]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_9GCSTT' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:1294]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_9GCSTT' (0#1) [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:1294]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_xbar_0' [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_xbar_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_xbar_0' (0#1) [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_xbar_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'Main_BD_xbar_0' is unconnected for instance 'xbar' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:755]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'Main_BD_xbar_0' is unconnected for instance 'xbar' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:755]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'Main_BD_xbar_0' has 40 connections declared, but only 38 given [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:755]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_microblaze_0_axi_periph_0' (0#1) [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:346]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_1PS7GT' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:1060]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_dlmb_bram_if_cntlr_0' [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_dlmb_bram_if_cntlr_0' (0#1) [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_dlmb_v10_0' [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_dlmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_dlmb_v10_0' (0#1) [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_dlmb_v10_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'Main_BD_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:1206]
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'Main_BD_dlmb_v10_0' has 25 connections declared, but only 24 given [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:1206]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_ilmb_bram_if_cntlr_0' [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_ilmb_bram_if_cntlr_0' (0#1) [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_ilmb_v10_0' [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_ilmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_ilmb_v10_0' (0#1) [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_ilmb_v10_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'Main_BD_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:1252]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'Main_BD_ilmb_v10_0' has 25 connections declared, but only 24 given [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:1252]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_lmb_bram_0' [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_lmb_bram_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_lmb_bram_0' (0#1) [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_lmb_bram_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'Main_BD_lmb_bram_0' is unconnected for instance 'lmb_bram' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:1277]
+WARNING: [Synth 8-7071] port 'rstb_busy' of module 'Main_BD_lmb_bram_0' is unconnected for instance 'lmb_bram' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:1277]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'Main_BD_lmb_bram_0' has 16 connections declared, but only 14 given [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:1277]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_1PS7GT' (0#1) [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:1060]
+INFO: [Synth 8-6157] synthesizing module 'Main_BD_rst_clk_wiz_1_100M_0' [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_rst_clk_wiz_1_100M_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_rst_clk_wiz_1_100M_0' (0#1) [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/.Xil/Vivado-40108-DESKTOP-LJ1PS58/realtime/Main_BD_rst_clk_wiz_1_100M_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'Main_BD_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:335]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'Main_BD_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:335]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'Main_BD_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 8 given [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:335]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD' (0#1) [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/synth/Main_BD.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'Main_BD_wrapper' (0#1) [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/hdl/Main_BD_wrapper.v:12]
+WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_9GCSTT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_9GCSTT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module s00_couplers_imp_9GCSTT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module s00_couplers_imp_9GCSTT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m01_couplers_imp_9L1KBY is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m01_couplers_imp_9L1KBY is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m01_couplers_imp_9L1KBY is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m01_couplers_imp_9L1KBY is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m00_couplers_imp_19TXFFX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m00_couplers_imp_19TXFFX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m00_couplers_imp_19TXFFX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m00_couplers_imp_19TXFFX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ACLK in module Main_BD_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ARESETN in module Main_BD_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ACLK in module Main_BD_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ARESETN in module Main_BD_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ACLK in module Main_BD_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ARESETN in module Main_BD_microblaze_0_axi_periph_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2109.156 ; gain = 466.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2109.156 ; gain = 466.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2109.156 ; gain = 466.266
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2109.156 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_microblaze_0_0/Main_BD_microblaze_0_0/Main_BD_microblaze_0_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0'
+Finished Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_microblaze_0_0/Main_BD_microblaze_0_0/Main_BD_microblaze_0_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0'
+Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_axi_uartlite_0_0/Main_BD_axi_uartlite_0_0/Main_BD_axi_uartlite_0_0_in_context.xdc] for cell 'Main_BD_i/axi_uartlite_0'
+Finished Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_axi_uartlite_0_0/Main_BD_axi_uartlite_0_0/Main_BD_axi_uartlite_0_0_in_context.xdc] for cell 'Main_BD_i/axi_uartlite_0'
+Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_axi_gpio_0_0/Main_BD_axi_gpio_0_0/Main_BD_axi_gpio_0_0_in_context.xdc] for cell 'Main_BD_i/axi_gpio_0'
+Finished Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_axi_gpio_0_0/Main_BD_axi_gpio_0_0/Main_BD_axi_gpio_0_0_in_context.xdc] for cell 'Main_BD_i/axi_gpio_0'
+Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_dlmb_v10_0/Main_BD_dlmb_v10_0/Main_BD_dlmb_v10_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_dlmb_v10_0/Main_BD_dlmb_v10_0/Main_BD_dlmb_v10_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_ilmb_v10_0/Main_BD_ilmb_v10_0/Main_BD_dlmb_v10_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_ilmb_v10_0/Main_BD_ilmb_v10_0/Main_BD_dlmb_v10_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_dlmb_bram_if_cntlr_0/Main_BD_dlmb_bram_if_cntlr_0/Main_BD_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_dlmb_bram_if_cntlr_0/Main_BD_dlmb_bram_if_cntlr_0/Main_BD_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_ilmb_bram_if_cntlr_0/Main_BD_ilmb_bram_if_cntlr_0/Main_BD_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_ilmb_bram_if_cntlr_0/Main_BD_ilmb_bram_if_cntlr_0/Main_BD_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_lmb_bram_0/Main_BD_lmb_bram_0/Main_BD_lmb_bram_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_lmb_bram_0/Main_BD_lmb_bram_0/Main_BD_lmb_bram_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_mdm_1_0/Main_BD_mdm_1_0/Main_BD_mdm_1_0_in_context.xdc] for cell 'Main_BD_i/mdm_1'
+Finished Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_mdm_1_0/Main_BD_mdm_1_0/Main_BD_mdm_1_0_in_context.xdc] for cell 'Main_BD_i/mdm_1'
+Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_clk_wiz_1_0/Main_BD_clk_wiz_1_0/Main_BD_clk_wiz_1_0_in_context.xdc] for cell 'Main_BD_i/clk_wiz_1'
+Finished Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_clk_wiz_1_0/Main_BD_clk_wiz_1_0/Main_BD_clk_wiz_1_0_in_context.xdc] for cell 'Main_BD_i/clk_wiz_1'
+Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_rst_clk_wiz_1_100M_0/Main_BD_rst_clk_wiz_1_100M_0/Main_BD_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'Main_BD_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_rst_clk_wiz_1_100M_0/Main_BD_rst_clk_wiz_1_100M_0/Main_BD_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'Main_BD_i/rst_clk_wiz_1_100M'
+Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_xbar_0/Main_BD_xbar_0/Main_BD_xbar_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0_axi_periph/xbar'
+Finished Parsing XDC File [d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_xbar_0/Main_BD_xbar_0/Main_BD_xbar_0_in_context.xdc] for cell 'Main_BD_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ5'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ5'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ0'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ0'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ7'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ7'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ3'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ3'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS0_C'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:39]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS0_C'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:40]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS0_T'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS0_T'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:42]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ1'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ1'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ2'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ2'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:46]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ4'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:47]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ4'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:48]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ6'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ6'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:50]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DM0'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:53]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DM0'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:54]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ10'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:59]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ10'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:60]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ8'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:61]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ8'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:62]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ13'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:63]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ13'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:64]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ15'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:65]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ15'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:66]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS1_C'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:67]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS1_C'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:68]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS1_T'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:69]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS1_T'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:70]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ11'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:71]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ11'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:72]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ9'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:73]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ9'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:74]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ12'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:75]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ12'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:76]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ14'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:77]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ14'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:78]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DM1'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:81]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DM1'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:82]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ19'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:83]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ19'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:84]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ21'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:85]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ21'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:86]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ23'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:87]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ23'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:88]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ20'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:89]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ20'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:90]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS2_C'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:91]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS2_C'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:92]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS2_T'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:93]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS2_T'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:94]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ17'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:95]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ17'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:96]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ22'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:97]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ22'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:98]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ18'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:99]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ18'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:100]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ16'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:101]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ16'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:102]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DM2'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:105]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DM2'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:106]
+WARNING: [Vivado 12-584] No ports matched 'VRP_67'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:109]
+WARNING: [Vivado 12-584] No ports matched 'VRP_67'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:110]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ29'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:111]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ29'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:112]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ25'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:113]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ25'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:114]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ26'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:115]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ26'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:116]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ30'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:117]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ30'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:118]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS3_C'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:119]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS3_C'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:120]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS3_T'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:121]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQS3_T'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:122]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ27'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:123]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ27'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:124]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ28'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:125]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ28'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:126]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ31"'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:127]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ31'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:128]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ24'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:129]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DQ24'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:130]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DM3'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:133]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_DM3'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:134]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_A13'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:135]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_A13'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:136]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_A7'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:137]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_A7'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:138]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_A5'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:139]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_A5'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:140]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_A2'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:141]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_A2'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:142]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_A9'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:143]
+WARNING: [Vivado 12-584] No ports matched 'DDR4_A9'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:144]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:144]
+CRITICAL WARNING: [Designutils 20-1307] Command 'et_property' is not supported in the xdc constraint file. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:171]
+CRITICAL WARNING: [Designutils 20-1307] Command 'et_property' is not supported in the xdc constraint file. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:173]
+CRITICAL WARNING: [Designutils 20-1307] Command 'et_property' is not supported in the xdc constraint file. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:175]
+CRITICAL WARNING: [Designutils 20-1307] Command 'et_property' is not supported in the xdc constraint file. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:177]
+CRITICAL WARNING: [Netlist 29-69] Cannot set property 'CLOCK_DEDICATED_ROUTE', because the property does not exist for objects of type 'port'. [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc:206]
+Resolution: Modify .xdc or RTL to not set this property or move it to one of the following object types that can accept this property: pin,net
+Finished Parsing XDC File [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/Main_BD_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/KCU116_Rev1.0_XDC_04062017.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Main_BD_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Main_BD_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2109.156 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2109.156 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'Main_BD_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2109.156 ; gain = 466.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcku5p-ffvb676-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2109.156 ; gain = 466.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for default_sysclk1_300_clk_n. (constraint file  d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_clk_wiz_1_0/Main_BD_clk_wiz_1_0/Main_BD_clk_wiz_1_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for default_sysclk1_300_clk_n. (constraint file  d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_clk_wiz_1_0/Main_BD_clk_wiz_1_0/Main_BD_clk_wiz_1_0_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for default_sysclk1_300_clk_p. (constraint file  d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_clk_wiz_1_0/Main_BD_clk_wiz_1_0/Main_BD_clk_wiz_1_0_in_context.xdc, line 6).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for default_sysclk1_300_clk_p. (constraint file  d:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.gen/sources_1/bd/Main_BD/ip/Main_BD_clk_wiz_1_0/Main_BD_clk_wiz_1_0/Main_BD_clk_wiz_1_0_in_context.xdc, line 7).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i/microblaze_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i/axi_uartlite_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i/axi_gpio_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i/mdm_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i/clk_wiz_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Main_BD_i/microblaze_0_axi_periph. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2109.156 ; gain = 466.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2109.156 ; gain = 466.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1824 (col length:96)
+BRAMs: 960 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port M00_ACLK in module Main_BD_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ARESETN in module Main_BD_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ACLK in module Main_BD_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ARESETN in module Main_BD_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ACLK in module Main_BD_microblaze_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ARESETN in module Main_BD_microblaze_0_axi_periph_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2109.156 ; gain = 466.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2557.633 ; gain = 914.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2557.781 ; gain = 914.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2577.352 ; gain = 934.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2582.148 ; gain = 939.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2582.148 ; gain = 939.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2582.148 ; gain = 939.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2582.148 ; gain = 939.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2582.148 ; gain = 939.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2582.148 ; gain = 939.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------+----------+
+|      |BlackBox name                |Instances |
++------+-----------------------------+----------+
+|1     |Main_BD_xbar_0               |         1|
+|2     |Main_BD_axi_gpio_0_0         |         1|
+|3     |Main_BD_axi_uartlite_0_0     |         1|
+|4     |Main_BD_clk_wiz_1_0          |         1|
+|5     |Main_BD_mdm_1_0              |         1|
+|6     |Main_BD_microblaze_0_0       |         1|
+|7     |Main_BD_rst_clk_wiz_1_100M_0 |         1|
+|8     |Main_BD_dlmb_bram_if_cntlr_0 |         1|
+|9     |Main_BD_dlmb_v10_0           |         1|
+|10    |Main_BD_ilmb_bram_if_cntlr_0 |         1|
+|11    |Main_BD_ilmb_v10_0           |         1|
+|12    |Main_BD_lmb_bram_0           |         1|
++------+-----------------------------+----------+
+
+Report Cell Usage: 
++------+---------------------------+------+
+|      |Cell                       |Count |
++------+---------------------------+------+
+|1     |Main_BD_axi_gpio_0         |     1|
+|2     |Main_BD_axi_uartlite_0     |     1|
+|3     |Main_BD_clk_wiz_1          |     1|
+|4     |Main_BD_dlmb_bram_if_cntlr |     1|
+|5     |Main_BD_dlmb_v10           |     1|
+|6     |Main_BD_ilmb_bram_if_cntlr |     1|
+|7     |Main_BD_ilmb_v10           |     1|
+|8     |Main_BD_lmb_bram           |     1|
+|9     |Main_BD_mdm_1              |     1|
+|10    |Main_BD_microblaze_0       |     1|
+|11    |Main_BD_rst_clk_wiz_1_100M |     1|
+|12    |Main_BD_xbar               |     1|
+|13    |IBUF                       |     7|
+|14    |OBUF                       |    10|
++------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2582.148 ; gain = 939.258
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2582.148 ; gain = 939.258
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2582.148 ; gain = 939.258
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2595.250 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2621.555 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 7 instances
+
+Synth Design complete, checksum: 7fb2d59
+INFO: [Common 17-83] Releasing license: Synthesis
+66 Infos, 144 Warnings, 5 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2621.555 ; gain = 2032.406
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/Personal/FPGA/XilinxFPGA/Freq_Gen/Freq_Gen/Freq_Gen.runs/synth_1/Main_BD_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Main_BD_wrapper_utilization_synth.rpt -pb Main_BD_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed May 17 16:07:56 2023...

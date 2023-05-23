@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="KCU116_Test" location="D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/KCU116_Test" platform="D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/export/MainBD_wrapper/MainBD_wrapper.xpfm" platformUID="xilinx:kcu116::0.0(custom)" systemProject="KCU116_Test_system" sysConfig="MainBD_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="fac11d61f0ea84f55c386b5b290b501e">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1812627259">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.692464800" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

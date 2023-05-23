@@ -1,0 +1,1963 @@
+TRACE::2023-05-23.13:12:19::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:19::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-05-23.13:12:19::SCWPlatform::Opened new HwDB with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:19::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-05-23.13:12:19::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"MainBD_wrapper",
+	"systems":	[{
+			"systemName":	"MainBD_wrapper",
+			"systemDesc":	"MainBD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"MainBD_wrapper"
+		}]
+}
+TRACE::2023-05-23.13:12:19::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-05-23.13:12:19::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2023-05-23.13:12:19::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"MainBD_wrapper",
+	"systems":	[{
+			"systemName":	"MainBD_wrapper",
+			"systemDesc":	"MainBD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"MainBD_wrapper"
+		}]
+}
+TRACE::2023-05-23.13:12:19::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"MainBD_wrapper",
+	"systems":	[{
+			"systemName":	"MainBD_wrapper",
+			"systemDesc":	"MainBD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"MainBD_wrapper"
+		}]
+}
+TRACE::2023-05-23.13:12:19::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:19::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:19::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:19::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:19::SCWDomain::checking for install qemu data   : 
+TRACE::2023-05-23.13:12:19::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:19::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:19::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:19::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:19::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:19::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:19::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:19::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:19::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-05-23.13:12:19::SCWMssOS::No sw design opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:19::SCWMssOS::mss does not exists at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:19::SCWMssOS::Creating sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:19::SCWMssOS::Adding the swdes entry, created swdb D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:19::SCWMssOS::updating the scw layer changes to swdes at   D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:19::SCWMssOS::Writing mss at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:19::SCWMssOS::Completed writing the mss file at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-23.13:12:19::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-05-23.13:12:19::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-05-23.13:12:19::SCWMssOS::Completed writing the mss file at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-23.13:12:19::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2023-05-23.13:12:22::SCWMssOS::Saving the mss changes D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-23.13:12:22::SCWMssOS::Writing the mss file completed D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::Commit changes completed.
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"MainBD_wrapper",
+	"systems":	[{
+			"systemName":	"MainBD_wrapper",
+			"systemDesc":	"MainBD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"MainBD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"6c26e2042c520487d03d483f6a7ba0f5",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-05-23.13:12:22::SCWPlatform::Started generating the artifacts platform MainBD_wrapper
+TRACE::2023-05-23.13:12:22::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-05-23.13:12:22::SCWPlatform::Started generating the artifacts for system configuration MainBD_wrapper
+LOG::2023-05-23.13:12:22::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-05-23.13:12:22::SCWSystem::Not a boot domain 
+LOG::2023-05-23.13:12:22::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-05-23.13:12:22::SCWDomain::Generating domain artifcats
+TRACE::2023-05-23.13:12:22::SCWMssOS::Generating standalone artifcats
+TRACE::2023-05-23.13:12:22::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::Completed writing the mss file at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-23.13:12:22::SCWMssOS::Mss edits present, copying mssfile into export location D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-05-23.13:12:22::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-05-23.13:12:22::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2023-05-23.13:12:22::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-05-23.13:12:22::SCWMssOS::Copying to export directory.
+TRACE::2023-05-23.13:12:22::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-05-23.13:12:22::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-05-23.13:12:22::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-05-23.13:12:22::SCWSystem::Completed Processing the sysconfig MainBD_wrapper
+LOG::2023-05-23.13:12:22::SCWPlatform::Completed generating the artifacts for system configuration MainBD_wrapper
+TRACE::2023-05-23.13:12:22::SCWPlatform::Started preparing the platform 
+TRACE::2023-05-23.13:12:22::SCWSystem::Writing the bif file for system config MainBD_wrapper
+TRACE::2023-05-23.13:12:22::SCWSystem::dir created 
+TRACE::2023-05-23.13:12:22::SCWSystem::Writing the bif 
+TRACE::2023-05-23.13:12:22::SCWPlatform::Started writing the spfm file 
+TRACE::2023-05-23.13:12:22::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-05-23.13:12:22::SCWPlatform::Completed generating the platform
+TRACE::2023-05-23.13:12:22::SCWMssOS::Saving the mss changes D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-23.13:12:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-23.13:12:22::SCWMssOS::Commit changes completed.
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"MainBD_wrapper",
+	"systems":	[{
+			"systemName":	"MainBD_wrapper",
+			"systemDesc":	"MainBD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"MainBD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"6c26e2042c520487d03d483f6a7ba0f5",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-05-23.13:12:22::SCWPlatform::updated the xpfm file.
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::Saving the mss changes D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-23.13:12:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-23.13:12:22::SCWMssOS::Commit changes completed.
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"MainBD_wrapper",
+	"systems":	[{
+			"systemName":	"MainBD_wrapper",
+			"systemDesc":	"MainBD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"MainBD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"6c26e2042c520487d03d483f6a7ba0f5",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::Saving the mss changes D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-23.13:12:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-23.13:12:22::SCWMssOS::Commit changes completed.
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"MainBD_wrapper",
+	"systems":	[{
+			"systemName":	"MainBD_wrapper",
+			"systemDesc":	"MainBD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"MainBD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"6c26e2042c520487d03d483f6a7ba0f5",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-05-23.13:12:22::SCWPlatform::Started generating the artifacts platform MainBD_wrapper
+TRACE::2023-05-23.13:12:22::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-05-23.13:12:22::SCWPlatform::Started generating the artifacts for system configuration MainBD_wrapper
+LOG::2023-05-23.13:12:22::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-05-23.13:12:22::SCWDomain::Generating domain artifcats
+TRACE::2023-05-23.13:12:22::SCWMssOS::Generating standalone artifcats
+TRACE::2023-05-23.13:12:22::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::Completed writing the mss file at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-23.13:12:22::SCWMssOS::Mss edits present, copying mssfile into export location D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-05-23.13:12:22::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-05-23.13:12:22::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2023-05-23.13:12:22::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-05-23.13:12:22::SCWMssOS::Copying to export directory.
+TRACE::2023-05-23.13:12:22::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-05-23.13:12:22::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-05-23.13:12:22::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-05-23.13:12:22::SCWSystem::Completed Processing the sysconfig MainBD_wrapper
+LOG::2023-05-23.13:12:22::SCWPlatform::Completed generating the artifacts for system configuration MainBD_wrapper
+TRACE::2023-05-23.13:12:22::SCWPlatform::Started preparing the platform 
+TRACE::2023-05-23.13:12:22::SCWSystem::Writing the bif file for system config MainBD_wrapper
+TRACE::2023-05-23.13:12:22::SCWSystem::dir created 
+TRACE::2023-05-23.13:12:22::SCWSystem::Writing the bif 
+TRACE::2023-05-23.13:12:22::SCWPlatform::Started writing the spfm file 
+TRACE::2023-05-23.13:12:22::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-05-23.13:12:22::SCWPlatform::Completed generating the platform
+TRACE::2023-05-23.13:12:22::SCWMssOS::Saving the mss changes D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-23.13:12:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-23.13:12:22::SCWMssOS::Commit changes completed.
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:12:22::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Opened existing hwdb MainBD_wrapper_0
+TRACE::2023-05-23.13:12:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:12:22::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:12:22::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:12:22::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"MainBD_wrapper",
+	"systems":	[{
+			"systemName":	"MainBD_wrapper",
+			"systemDesc":	"MainBD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"MainBD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"6c26e2042c520487d03d483f6a7ba0f5",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-05-23.13:12:22::SCWPlatform::updated the xpfm file.
+TRACE::2023-05-23.13:16:24::SCWPlatform::Clearing the existing platform
+TRACE::2023-05-23.13:16:24::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-05-23.13:16:24::SCWMssOS::Removing the swdes entry for  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:24::SCWSystem::Clearing the domains completed.
+TRACE::2023-05-23.13:16:24::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Platform location is D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:16:24::SCWPlatform::Removing the HwDB with name D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:16:24::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-05-23.13:16:24::SCWPlatform::Opened new HwDB with name MainBD_wrapper_2
+TRACE::2023-05-23.13:16:24::SCWReader::Active system found as  MainBD_wrapper
+TRACE::2023-05-23.13:16:24::SCWReader::Handling sysconfig MainBD_wrapper
+TRACE::2023-05-23.13:16:24::SCWDomain::checking for install qemu data   : 
+TRACE::2023-05-23.13:16:24::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:16:24::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:16:24::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:16:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:16:24::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:16:24::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:16:24::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:16:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:16:24::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:16:24::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:16:24::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:16:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:16:24::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:16:24::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:16:24::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:16:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:16:24::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:24::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-05-23.13:16:24::SCWMssOS::No sw design opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:24::SCWMssOS::mss exists loading the mss file  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:24::SCWMssOS::Opened the sw design from mss  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:24::SCWMssOS::Adding the swdes entry D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-23.13:16:24::SCWMssOS::updating the scw layer about changes
+TRACE::2023-05-23.13:16:24::SCWMssOS::Opened the sw design.  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:24::SCWMssOS::Saving the mss changes D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-23.13:16:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-23.13:16:24::SCWMssOS::Commit changes completed.
+TRACE::2023-05-23.13:16:24::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-05-23.13:16:24::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-05-23.13:16:24::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:24::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:16:24::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:16:24::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:16:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:16:24::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:24::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:16:24::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:24::SCWReader::No isolation master present  
+TRACE::2023-05-23.13:16:25::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:25::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:25::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:25::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:16:25::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:25::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:16:25::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:16:25::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:16:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:16:25::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:25::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:16:25::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:25::SCWMssOS::In reload Mss file.
+TRACE::2023-05-23.13:16:25::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:25::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:25::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:25::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:16:25::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:25::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:16:25::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:16:25::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:16:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:16:25::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:25::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-05-23.13:16:25::SCWMssOS::No sw design opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:25::SCWMssOS::mss exists loading the mss file  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:25::SCWMssOS::Opened the sw design from mss  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:25::SCWMssOS::Adding the swdes entry D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-23.13:16:25::SCWMssOS::updating the scw layer about changes
+TRACE::2023-05-23.13:16:25::SCWMssOS::Opened the sw design.  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:25::SCWMssOS::Saving the mss changes D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-23.13:16:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-23.13:16:25::SCWMssOS::Commit changes completed.
+TRACE::2023-05-23.13:16:25::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:25::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:25::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:25::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:16:25::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:25::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:16:25::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:16:25::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:16:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:16:25::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:25::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:16:25::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:25::SCWMssOS::Removing the swdes entry for  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:30::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:30::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:30::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:30::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:16:30::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:16:30::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:16:30::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:16:30::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:16:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:16:30::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:30::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-05-23.13:16:30::SCWMssOS::No sw design opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:30::SCWMssOS::mss exists loading the mss file  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:30::SCWMssOS::Opened the sw design from mss  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:16:30::SCWMssOS::Adding the swdes entry D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-23.13:16:30::SCWMssOS::updating the scw layer about changes
+TRACE::2023-05-23.13:16:30::SCWMssOS::Opened the sw design.  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:17:08::SCWMssOS::Saving the mss changes D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:17:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-23.13:17:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-23.13:17:08::SCWMssOS::Commit changes completed.
+TRACE::2023-05-23.13:17:08::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:17:08::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:17:08::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:17:08::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:17:08::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:17:08::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:17:08::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:17:08::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:17:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:17:08::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:17:08::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:17:08::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:17:08::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"MainBD_wrapper",
+	"systems":	[{
+			"systemName":	"MainBD_wrapper",
+			"systemDesc":	"MainBD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"MainBD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"6c26e2042c520487d03d483f6a7ba0f5",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-05-23.13:17:08::SCWMssOS::Saving the mss changes D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:17:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-23.13:17:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-23.13:17:08::SCWMssOS::Commit changes completed.
+TRACE::2023-05-23.13:17:08::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:17:08::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:17:08::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:17:08::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:17:08::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:17:08::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:17:08::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:17:08::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:17:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:17:08::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:17:08::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:17:08::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:17:08::SCWMssOS::Removing the swdes entry for  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+LOG::2023-05-23.13:19:17::SCWPlatform::Started generating the artifacts platform MainBD_wrapper
+TRACE::2023-05-23.13:19:17::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-05-23.13:19:17::SCWPlatform::Started generating the artifacts for system configuration MainBD_wrapper
+LOG::2023-05-23.13:19:17::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-05-23.13:19:17::SCWSystem::Not a boot domain 
+LOG::2023-05-23.13:19:17::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-05-23.13:19:17::SCWDomain::Generating domain artifcats
+TRACE::2023-05-23.13:19:17::SCWMssOS::Generating standalone artifcats
+TRACE::2023-05-23.13:19:17::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-05-23.13:19:17::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:17::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:17::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:17::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:19:17::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:17::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:19:17::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:19:17::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:19:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:19:17::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:17::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-05-23.13:19:17::SCWMssOS::No sw design opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:17::SCWMssOS::mss exists loading the mss file  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:17::SCWMssOS::Opened the sw design from mss  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:17::SCWMssOS::Adding the swdes entry D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-23.13:19:17::SCWMssOS::updating the scw layer about changes
+TRACE::2023-05-23.13:19:17::SCWMssOS::Opened the sw design.  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:17::SCWMssOS::Completed writing the mss file at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-23.13:19:17::SCWMssOS::Mss edits present, copying mssfile into export location D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:17::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-05-23.13:19:17::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-05-23.13:19:17::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2023-05-23.13:19:17::SCWMssOS::doing bsp build ... 
+TRACE::2023-05-23.13:19:17::SCWMssOS::System Command Ran  D: & cd  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-05-23.13:19:17::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-05-23.13:19:17::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-05-23.13:19:17::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2023-05-23.13:19:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-23.13:19:17::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-23.13:19:17::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-23.13:19:17::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-23.13:19:17::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-23.13:19:17::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-23.13:19:17::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-23.13:19:17::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-23.13:19:17::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-23.13:19:17::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-23.13:19:18::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-05-23.13:19:18::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-05-23.13:19:18::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:18::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartns550_v3_8/src"
+
+TRACE::2023-05-23.13:19:18::SCWMssOS::make -C microblaze_0/libsrc/uartns550_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2023-05-23.13:19:18::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2023-05-23.13:19:18::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:18::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-23.13:19:18::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-23.13:19:18::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-23.13:19:18::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:18::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-23.13:19:18::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-23.13:19:18::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-23.13:19:18::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:18::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-23.13:19:18::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-23.13:19:18::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-23.13:19:18::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:18::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-23.13:19:18::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-05-23.13:19:18::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-05-23.13:19:18::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:18::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartns550_v3_8/src"
+
+TRACE::2023-05-23.13:19:18::SCWMssOS::make -C microblaze_0/libsrc/uartns550_v3_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2023-05-23.13:19:18::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2023-05-23.13:19:18::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:19::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-05-23.13:19:19::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-05-23.13:19:19::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-05-23.13:19:19::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2023-05-23.13:19:19::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2023-05-23.13:19:19::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2023-05-23.13:19:19::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2023-05-23.13:19:19::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2023-05-23.13:19:19::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2023-05-23.13:19:19::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2023-05-23.13:19:19::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2023-05-23.13:19:19::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2023-05-23.13:19:19::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2023-05-23.13:19:19::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2023-05-23.13:19:19::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2023-05-23.13:19:19::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2023-05-23.13:19:19::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2023-05-23.13:19:19::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2023-05-23.13:19:19::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2023-05-23.13:19:19::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2023-05-23.13:19:19::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xinter
+TRACE::2023-05-23.13:19:19::SCWMssOS::rupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartns550.o microblaze_0/lib/xuartns550_
+TRACE::2023-05-23.13:19:19::SCWMssOS::format.o microblaze_0/lib/xuartns550_g.o microblaze_0/lib/xuartns550_intr.o microblaze_0/lib/xuartns550_l.o microblaze_0/lib/xu
+TRACE::2023-05-23.13:19:19::SCWMssOS::artns550_options.o microblaze_0/lib/xuartns550_selftest.o microblaze_0/lib/xuartns550_sinit.o microblaze_0/lib/xuartns550_stats
+TRACE::2023-05-23.13:19:19::SCWMssOS::.o
+
+TRACE::2023-05-23.13:19:19::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-05-23.13:19:20::SCWMssOS::Copying to export directory.
+TRACE::2023-05-23.13:19:20::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-05-23.13:19:20::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-05-23.13:19:20::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-05-23.13:19:20::SCWSystem::Completed Processing the sysconfig MainBD_wrapper
+LOG::2023-05-23.13:19:20::SCWPlatform::Completed generating the artifacts for system configuration MainBD_wrapper
+TRACE::2023-05-23.13:19:20::SCWPlatform::Started preparing the platform 
+TRACE::2023-05-23.13:19:20::SCWSystem::Writing the bif file for system config MainBD_wrapper
+TRACE::2023-05-23.13:19:20::SCWSystem::dir created 
+TRACE::2023-05-23.13:19:20::SCWSystem::Writing the bif 
+TRACE::2023-05-23.13:19:20::SCWPlatform::Started writing the spfm file 
+TRACE::2023-05-23.13:19:20::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-05-23.13:19:20::SCWPlatform::Completed generating the platform
+TRACE::2023-05-23.13:19:20::SCWMssOS::Saving the mss changes D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:20::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-23.13:19:20::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-23.13:19:20::SCWMssOS::Commit changes completed.
+TRACE::2023-05-23.13:19:20::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:20::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:20::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:20::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:19:20::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:20::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:19:20::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:19:20::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:19:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:19:20::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:20::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:19:20::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:20::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"MainBD_wrapper",
+	"systems":	[{
+			"systemName":	"MainBD_wrapper",
+			"systemDesc":	"MainBD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"MainBD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"6c26e2042c520487d03d483f6a7ba0f5",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-05-23.13:19:20::SCWPlatform::updated the xpfm file.
+TRACE::2023-05-23.13:19:20::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:20::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:20::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:20::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:19:20::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:20::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:19:20::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:19:20::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:19:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:19:20::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:20::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:19:20::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:23::SCWMssOS::cleaning the bsp 
+TRACE::2023-05-23.13:19:23::SCWMssOS::System Command Ran  D: & cd  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2023-05-23.13:19:23::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2023-05-23.13:19:23::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2023-05-23.13:19:23::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+TRACE::2023-05-23.13:19:23::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2023-05-23.13:19:24::SCWMssOS::make -C microblaze_0/libsrc/uartns550_v3_8/src -s clean 
+
+TRACE::2023-05-23.13:19:24::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2023-05-23.13:19:30::SCWPlatform::Started generating the artifacts platform MainBD_wrapper
+TRACE::2023-05-23.13:19:30::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-05-23.13:19:30::SCWPlatform::Started generating the artifacts for system configuration MainBD_wrapper
+LOG::2023-05-23.13:19:30::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-05-23.13:19:30::SCWSystem::Not a boot domain 
+LOG::2023-05-23.13:19:30::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-05-23.13:19:30::SCWDomain::Generating domain artifcats
+TRACE::2023-05-23.13:19:30::SCWMssOS::Generating standalone artifcats
+TRACE::2023-05-23.13:19:30::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-05-23.13:19:30::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:30::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:30::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:30::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:19:30::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:30::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:19:30::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:19:30::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:19:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:19:30::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:30::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:30::SCWMssOS::Completed writing the mss file at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-23.13:19:30::SCWMssOS::Mss edits present, copying mssfile into export location D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:30::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-05-23.13:19:30::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-05-23.13:19:30::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2023-05-23.13:19:30::SCWMssOS::doing bsp build ... 
+TRACE::2023-05-23.13:19:30::SCWMssOS::System Command Ran  D: & cd  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-05-23.13:19:30::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-23.13:19:30::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-23.13:19:30::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-23.13:19:30::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-23.13:19:30::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-23.13:19:30::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-23.13:19:30::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-05-23.13:19:30::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-05-23.13:19:30::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartns550_v3_8/src"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::make -C microblaze_0/libsrc/uartns550_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2023-05-23.13:19:30::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2023-05-23.13:19:30::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-23.13:19:30::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-23.13:19:30::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-23.13:19:30::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-23.13:19:30::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-23.13:19:30::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-23.13:19:30::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-05-23.13:19:30::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-05-23.13:19:30::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartns550_v3_8/src"
+
+TRACE::2023-05-23.13:19:30::SCWMssOS::make -C microblaze_0/libsrc/uartns550_v3_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2023-05-23.13:19:30::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2023-05-23.13:19:30::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:19:31::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-05-23.13:19:31::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-05-23.13:19:31::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-05-23.13:19:31::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2023-05-23.13:19:31::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2023-05-23.13:19:31::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2023-05-23.13:19:31::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2023-05-23.13:19:31::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2023-05-23.13:19:31::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2023-05-23.13:19:31::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2023-05-23.13:19:31::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2023-05-23.13:19:31::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2023-05-23.13:19:31::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2023-05-23.13:19:31::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2023-05-23.13:19:31::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2023-05-23.13:19:31::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2023-05-23.13:19:31::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2023-05-23.13:19:31::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2023-05-23.13:19:31::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2023-05-23.13:19:31::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2023-05-23.13:19:31::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xinter
+TRACE::2023-05-23.13:19:31::SCWMssOS::rupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartns550.o microblaze_0/lib/xuartns550_
+TRACE::2023-05-23.13:19:31::SCWMssOS::format.o microblaze_0/lib/xuartns550_g.o microblaze_0/lib/xuartns550_intr.o microblaze_0/lib/xuartns550_l.o microblaze_0/lib/xu
+TRACE::2023-05-23.13:19:31::SCWMssOS::artns550_options.o microblaze_0/lib/xuartns550_selftest.o microblaze_0/lib/xuartns550_sinit.o microblaze_0/lib/xuartns550_stats
+TRACE::2023-05-23.13:19:31::SCWMssOS::.o
+
+TRACE::2023-05-23.13:19:31::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-05-23.13:19:31::SCWMssOS::Copying to export directory.
+TRACE::2023-05-23.13:19:32::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-05-23.13:19:32::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-05-23.13:19:32::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-05-23.13:19:32::SCWSystem::Completed Processing the sysconfig MainBD_wrapper
+LOG::2023-05-23.13:19:32::SCWPlatform::Completed generating the artifacts for system configuration MainBD_wrapper
+TRACE::2023-05-23.13:19:32::SCWPlatform::Started preparing the platform 
+TRACE::2023-05-23.13:19:32::SCWSystem::Writing the bif file for system config MainBD_wrapper
+TRACE::2023-05-23.13:19:32::SCWSystem::dir created 
+TRACE::2023-05-23.13:19:32::SCWSystem::Writing the bif 
+TRACE::2023-05-23.13:19:32::SCWPlatform::Started writing the spfm file 
+TRACE::2023-05-23.13:19:32::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-05-23.13:19:32::SCWPlatform::Completed generating the platform
+TRACE::2023-05-23.13:19:32::SCWMssOS::Saving the mss changes D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:32::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-23.13:19:32::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-23.13:19:32::SCWMssOS::Commit changes completed.
+TRACE::2023-05-23.13:19:32::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:32::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:32::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:32::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:19:32::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:32::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:19:32::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:19:32::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:19:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:19:32::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:32::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:19:32::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:32::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"MainBD_wrapper",
+	"systems":	[{
+			"systemName":	"MainBD_wrapper",
+			"systemDesc":	"MainBD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"MainBD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"6c26e2042c520487d03d483f6a7ba0f5",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-05-23.13:19:32::SCWPlatform::updated the xpfm file.
+TRACE::2023-05-23.13:19:32::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:32::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:32::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:32::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:19:32::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:19:32::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:19:32::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:19:32::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:19:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:19:32::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:19:32::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:19:32::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:33:07::SCWMssOS::cleaning the bsp 
+TRACE::2023-05-23.13:33:07::SCWMssOS::System Command Ran  D: & cd  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2023-05-23.13:33:07::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2023-05-23.13:33:07::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2023-05-23.13:33:07::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+TRACE::2023-05-23.13:33:07::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2023-05-23.13:33:07::SCWMssOS::make -C microblaze_0/libsrc/uartns550_v3_8/src -s clean 
+
+TRACE::2023-05-23.13:33:07::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2023-05-23.13:33:09::SCWPlatform::Started generating the artifacts platform MainBD_wrapper
+TRACE::2023-05-23.13:33:09::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-05-23.13:33:09::SCWPlatform::Started generating the artifacts for system configuration MainBD_wrapper
+LOG::2023-05-23.13:33:09::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-05-23.13:33:09::SCWSystem::Not a boot domain 
+LOG::2023-05-23.13:33:09::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-05-23.13:33:09::SCWDomain::Generating domain artifcats
+TRACE::2023-05-23.13:33:09::SCWMssOS::Generating standalone artifcats
+TRACE::2023-05-23.13:33:09::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-05-23.13:33:09::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:33:09::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:33:09::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:33:09::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:33:09::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:33:09::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:33:09::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:33:09::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:33:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:33:09::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:33:09::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:33:09::SCWMssOS::Completed writing the mss file at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-23.13:33:09::SCWMssOS::Mss edits present, copying mssfile into export location D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:33:09::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-05-23.13:33:09::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-05-23.13:33:09::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2023-05-23.13:33:09::SCWMssOS::doing bsp build ... 
+TRACE::2023-05-23.13:33:09::SCWMssOS::System Command Ran  D: & cd  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-05-23.13:33:09::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-23.13:33:09::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-23.13:33:09::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-23.13:33:09::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-23.13:33:09::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-23.13:33:09::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-23.13:33:09::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-05-23.13:33:09::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-05-23.13:33:09::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartns550_v3_8/src"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::make -C microblaze_0/libsrc/uartns550_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2023-05-23.13:33:09::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2023-05-23.13:33:09::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-23.13:33:09::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-23.13:33:09::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-23.13:33:09::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-23.13:33:09::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-23.13:33:09::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-23.13:33:09::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-05-23.13:33:09::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-05-23.13:33:09::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartns550_v3_8/src"
+
+TRACE::2023-05-23.13:33:09::SCWMssOS::make -C microblaze_0/libsrc/uartns550_v3_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2023-05-23.13:33:09::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2023-05-23.13:33:09::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:33:10::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-05-23.13:33:10::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-05-23.13:33:10::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-05-23.13:33:10::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2023-05-23.13:33:10::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2023-05-23.13:33:10::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2023-05-23.13:33:10::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2023-05-23.13:33:10::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2023-05-23.13:33:10::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2023-05-23.13:33:10::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2023-05-23.13:33:10::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2023-05-23.13:33:10::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2023-05-23.13:33:10::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2023-05-23.13:33:10::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2023-05-23.13:33:10::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2023-05-23.13:33:10::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2023-05-23.13:33:10::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2023-05-23.13:33:10::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2023-05-23.13:33:10::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2023-05-23.13:33:10::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2023-05-23.13:33:10::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xinter
+TRACE::2023-05-23.13:33:10::SCWMssOS::rupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartns550.o microblaze_0/lib/xuartns550_
+TRACE::2023-05-23.13:33:10::SCWMssOS::format.o microblaze_0/lib/xuartns550_g.o microblaze_0/lib/xuartns550_intr.o microblaze_0/lib/xuartns550_l.o microblaze_0/lib/xu
+TRACE::2023-05-23.13:33:10::SCWMssOS::artns550_options.o microblaze_0/lib/xuartns550_selftest.o microblaze_0/lib/xuartns550_sinit.o microblaze_0/lib/xuartns550_stats
+TRACE::2023-05-23.13:33:10::SCWMssOS::.o
+
+TRACE::2023-05-23.13:33:10::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-05-23.13:33:11::SCWMssOS::Copying to export directory.
+TRACE::2023-05-23.13:33:11::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-05-23.13:33:11::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-05-23.13:33:11::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-05-23.13:33:11::SCWSystem::Completed Processing the sysconfig MainBD_wrapper
+LOG::2023-05-23.13:33:11::SCWPlatform::Completed generating the artifacts for system configuration MainBD_wrapper
+TRACE::2023-05-23.13:33:11::SCWPlatform::Started preparing the platform 
+TRACE::2023-05-23.13:33:11::SCWSystem::Writing the bif file for system config MainBD_wrapper
+TRACE::2023-05-23.13:33:11::SCWSystem::dir created 
+TRACE::2023-05-23.13:33:11::SCWSystem::Writing the bif 
+TRACE::2023-05-23.13:33:11::SCWPlatform::Started writing the spfm file 
+TRACE::2023-05-23.13:33:11::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-05-23.13:33:11::SCWPlatform::Completed generating the platform
+TRACE::2023-05-23.13:33:11::SCWMssOS::Saving the mss changes D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:33:11::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-23.13:33:11::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-23.13:33:11::SCWMssOS::Commit changes completed.
+TRACE::2023-05-23.13:33:11::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:33:11::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:33:11::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:33:11::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:33:11::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:33:11::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:33:11::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:33:11::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:33:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:33:11::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:33:11::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:33:11::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:33:11::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"MainBD_wrapper",
+	"systems":	[{
+			"systemName":	"MainBD_wrapper",
+			"systemDesc":	"MainBD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"MainBD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"6c26e2042c520487d03d483f6a7ba0f5",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-05-23.13:33:11::SCWPlatform::updated the xpfm file.
+TRACE::2023-05-23.13:33:12::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:33:12::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:33:12::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:33:12::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:33:12::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:33:12::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:33:12::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:33:12::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:33:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:33:12::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:33:12::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:33:12::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:41:49::SCWMssOS::cleaning the bsp 
+TRACE::2023-05-23.13:41:49::SCWMssOS::System Command Ran  D: & cd  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2023-05-23.13:41:49::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2023-05-23.13:41:49::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2023-05-23.13:41:49::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+TRACE::2023-05-23.13:41:49::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2023-05-23.13:41:49::SCWMssOS::make -C microblaze_0/libsrc/uartns550_v3_8/src -s clean 
+
+TRACE::2023-05-23.13:41:49::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2023-05-23.13:41:59::SCWPlatform::Started generating the artifacts platform MainBD_wrapper
+TRACE::2023-05-23.13:41:59::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-05-23.13:41:59::SCWPlatform::Started generating the artifacts for system configuration MainBD_wrapper
+LOG::2023-05-23.13:41:59::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-05-23.13:41:59::SCWSystem::Not a boot domain 
+LOG::2023-05-23.13:41:59::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-05-23.13:41:59::SCWDomain::Generating domain artifcats
+TRACE::2023-05-23.13:41:59::SCWMssOS::Generating standalone artifcats
+TRACE::2023-05-23.13:41:59::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-05-23.13:41:59::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:41:59::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:41:59::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:41:59::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:41:59::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:41:59::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:41:59::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:41:59::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:41:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:41:59::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:41:59::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:41:59::SCWMssOS::Completed writing the mss file at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-23.13:41:59::SCWMssOS::Mss edits present, copying mssfile into export location D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:41:59::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-05-23.13:41:59::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-05-23.13:41:59::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2023-05-23.13:41:59::SCWMssOS::doing bsp build ... 
+TRACE::2023-05-23.13:41:59::SCWMssOS::System Command Ran  D: & cd  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-05-23.13:41:59::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-23.13:41:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-23.13:41:59::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-23.13:41:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-23.13:41:59::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-23.13:41:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-23.13:41:59::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-05-23.13:41:59::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-05-23.13:41:59::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartns550_v3_8/src"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::make -C microblaze_0/libsrc/uartns550_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2023-05-23.13:41:59::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2023-05-23.13:41:59::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-23.13:41:59::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-23.13:41:59::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-23.13:41:59::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-23.13:41:59::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-23.13:41:59::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-23.13:41:59::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-05-23.13:41:59::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-05-23.13:41:59::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartns550_v3_8/src"
+
+TRACE::2023-05-23.13:41:59::SCWMssOS::make -C microblaze_0/libsrc/uartns550_v3_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2023-05-23.13:41:59::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2023-05-23.13:41:59::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-23.13:42:00::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-05-23.13:42:00::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-05-23.13:42:00::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-05-23.13:42:00::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2023-05-23.13:42:00::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2023-05-23.13:42:00::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2023-05-23.13:42:00::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2023-05-23.13:42:00::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2023-05-23.13:42:00::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2023-05-23.13:42:00::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2023-05-23.13:42:00::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2023-05-23.13:42:00::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2023-05-23.13:42:00::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2023-05-23.13:42:00::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2023-05-23.13:42:00::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2023-05-23.13:42:00::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2023-05-23.13:42:00::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2023-05-23.13:42:00::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2023-05-23.13:42:00::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2023-05-23.13:42:00::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2023-05-23.13:42:00::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xinter
+TRACE::2023-05-23.13:42:00::SCWMssOS::rupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartns550.o microblaze_0/lib/xuartns550_
+TRACE::2023-05-23.13:42:00::SCWMssOS::format.o microblaze_0/lib/xuartns550_g.o microblaze_0/lib/xuartns550_intr.o microblaze_0/lib/xuartns550_l.o microblaze_0/lib/xu
+TRACE::2023-05-23.13:42:00::SCWMssOS::artns550_options.o microblaze_0/lib/xuartns550_selftest.o microblaze_0/lib/xuartns550_sinit.o microblaze_0/lib/xuartns550_stats
+TRACE::2023-05-23.13:42:00::SCWMssOS::.o
+
+TRACE::2023-05-23.13:42:00::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-05-23.13:42:01::SCWMssOS::Copying to export directory.
+TRACE::2023-05-23.13:42:01::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-05-23.13:42:01::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-05-23.13:42:01::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-05-23.13:42:01::SCWSystem::Completed Processing the sysconfig MainBD_wrapper
+LOG::2023-05-23.13:42:01::SCWPlatform::Completed generating the artifacts for system configuration MainBD_wrapper
+TRACE::2023-05-23.13:42:01::SCWPlatform::Started preparing the platform 
+TRACE::2023-05-23.13:42:01::SCWSystem::Writing the bif file for system config MainBD_wrapper
+TRACE::2023-05-23.13:42:01::SCWSystem::dir created 
+TRACE::2023-05-23.13:42:01::SCWSystem::Writing the bif 
+TRACE::2023-05-23.13:42:01::SCWPlatform::Started writing the spfm file 
+TRACE::2023-05-23.13:42:01::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-05-23.13:42:01::SCWPlatform::Completed generating the platform
+TRACE::2023-05-23.13:42:01::SCWMssOS::Saving the mss changes D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:42:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-23.13:42:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-23.13:42:01::SCWMssOS::Commit changes completed.
+TRACE::2023-05-23.13:42:01::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:42:01::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:42:01::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:42:01::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:42:01::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:42:01::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:42:01::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:42:01::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:42:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:42:01::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:42:01::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:42:01::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:42:01::SCWWriter::formatted JSON is {
+	"platformName":	"MainBD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"MainBD_wrapper",
+	"platHandOff":	"D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Test/MainBD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/MainBD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"MainBD_wrapper",
+	"systems":	[{
+			"systemName":	"MainBD_wrapper",
+			"systemDesc":	"MainBD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"MainBD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"6c26e2042c520487d03d483f6a7ba0f5",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-05-23.13:42:01::SCWPlatform::updated the xpfm file.
+TRACE::2023-05-23.13:42:02::SCWPlatform::Trying to open the hw design at D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:42:02::SCWPlatform::DSA given D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:42:02::SCWPlatform::DSA absoulate path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:42:02::SCWPlatform::DSA directory D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw
+TRACE::2023-05-23.13:42:02::SCWPlatform:: Platform Path D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/hw/MainBD_wrapper.xsa
+TRACE::2023-05-23.13:42:02::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-23.13:42:02::SCWPlatform::Trying to set the existing hwdb with name MainBD_wrapper_2
+TRACE::2023-05-23.13:42:02::SCWPlatform::Opened existing hwdb MainBD_wrapper_2
+TRACE::2023-05-23.13:42:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-23.13:42:02::SCWMssOS::Checking the sw design at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-23.13:42:02::SCWMssOS::DEBUG:  swdes dump  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-23.13:42:02::SCWMssOS::Sw design exists and opened at  D:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss

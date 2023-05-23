@@ -1,0 +1,25 @@
+13:51:04 **** Incremental Build of configuration Debug for project KCU116_Test ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/export/MainBD_wrapper/sw/MainBD_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:99:9: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   99 |         usleep(100);
+      |         ^~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: KCU116_Test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/Personal/FPGA/XilinxFPGA/KCU116_Test/KCU116_Vitis/MainBD_wrapper/export/MainBD_wrapper/sw/MainBD_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "KCU116_Test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: KCU116_Test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size KCU116_Test.elf  |tee "KCU116_Test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8424	    308	   3116	  11848	   2e48	KCU116_Test.elf
+'Finished building: KCU116_Test.elf.size'
+' '
+
+13:51:04 Build Finished (took 472ms)
+

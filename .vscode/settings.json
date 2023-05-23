@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "xil_printf.h": "c",
+        "platform.h": "c",
+        "xuartns550.h": "c",
+        "xparameters.h": "c"
+    }
+}

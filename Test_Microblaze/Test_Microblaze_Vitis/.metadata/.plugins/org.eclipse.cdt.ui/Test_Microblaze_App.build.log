@@ -1,0 +1,31 @@
+17:46:26 **** Incremental Build of configuration Debug for project Test_Microblaze_App ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze_Vitis/mainBD_wrapper/export/mainBD_wrapper/sw/mainBD_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:56:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   56 |     sleep(1);
+      |     ^~~~~
+../src/main.c:31:14: warning: unused variable 'BeforeVal' [-Wunused-variable]
+   31 |     uint32_t BeforeVal = 0;
+      |              ^~~~~~~~~
+../src/main.c:30:14: warning: unused variable 'DataRead' [-Wunused-variable]
+   30 |     uint32_t DataRead = XGpio_DiscreteRead(&Gpio, 1);
+      |              ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Microblaze_App.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze_Vitis/mainBD_wrapper/export/mainBD_wrapper/sw/mainBD_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Microblaze_App.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Microblaze_App.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Microblaze_App.elf  |tee "Test_Microblaze_App.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8512	    308	   3116	  11936	   2ea0	Test_Microblaze_App.elf
+'Finished building: Test_Microblaze_App.elf.size'
+' '
+
+17:46:26 Build Finished (took 459ms)
+

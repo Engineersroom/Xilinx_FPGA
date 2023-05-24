@@ -1,0 +1,26 @@
+timestamp=[2023-05-24 17:07:17], mode=WORKBENCH_START, duration=0:00:04.767, duration_ms=4767, data={}
+timestamp=[2023-05-24 17:07:17], mode=WORKBENCH_UI_INIT, duration=0:00:00.237, duration_ms=237, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-05-24 17:07:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.353, duration_ms=353, data={}
+timestamp=[2023-05-24 17:08:09], mode=APP_CREATION, duration=0:00:05.435, duration_ms=5435, data={name=Test_Microblaze_App, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=mainBD_wrapper, application_type=application}
+timestamp=[2023-05-24 17:32:51], mode=PLATFORM_GENERATION, duration=0:00:02.795, duration_ms=2795, data={name=mainBD_wrapper}
+timestamp=[2023-05-24 17:32:51], mode=BUILD, duration=0:00:00.237, duration_ms=237, data={name=Test_Microblaze_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 17:33:48], mode=PLATFORM_GENERATION, duration=0:00:04.724, duration_ms=4724, data={name=mainBD_wrapper}
+timestamp=[2023-05-24 17:34:04], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=Test_Microblaze_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 17:34:10], mode=PLATFORM_GENERATION, duration=0:00:02.396, duration_ms=2396, data={name=mainBD_wrapper}
+timestamp=[2023-05-24 17:34:10], mode=BUILD, duration=0:00:00.107, duration_ms=107, data={name=Test_Microblaze_App, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 17:34:17], mode=PLATFORM_GENERATION, duration=0:00:04.536, duration_ms=4536, data={name=mainBD_wrapper}
+timestamp=[2023-05-24 17:34:17], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=Test_Microblaze_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 17:35:04], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=Test_Microblaze_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 17:35:10], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=Test_Microblaze_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 17:35:14], mode=PLATFORM_GENERATION, duration=0:00:02.387, duration_ms=2387, data={name=mainBD_wrapper}
+timestamp=[2023-05-24 17:35:14], mode=BUILD, duration=0:00:00.109, duration_ms=109, data={name=Test_Microblaze_App, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 17:35:19], mode=PLATFORM_GENERATION, duration=0:00:04.866, duration_ms=4866, data={name=mainBD_wrapper}
+timestamp=[2023-05-24 17:35:19], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=Test_Microblaze_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 17:36:54], mode=BUILD, duration=0:00:00.665, duration_ms=665, data={name=Test_Microblaze_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 17:45:40], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=Test_Microblaze_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 17:45:47], mode=PLATFORM_GENERATION, duration=0:00:02.391, duration_ms=2391, data={name=mainBD_wrapper}
+timestamp=[2023-05-24 17:45:47], mode=BUILD, duration=0:00:00.108, duration_ms=108, data={name=Test_Microblaze_App, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 17:45:52], mode=PLATFORM_GENERATION, duration=0:00:04.601, duration_ms=4601, data={name=mainBD_wrapper}
+timestamp=[2023-05-24 17:45:53], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=Test_Microblaze_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 17:46:26], mode=BUILD, duration=0:00:00.463, duration_ms=463, data={name=Test_Microblaze_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 17:46:27], mode=BUILD, duration=0:00:00.103, duration_ms=103, data={name=Test_Microblaze_App_system, configuration=Debug, clean_build=false}

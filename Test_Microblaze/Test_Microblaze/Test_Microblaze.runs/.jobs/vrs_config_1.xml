@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="mainBD_axi_uart16550_0_0_synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/mainBD_axi_uart16550_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mainBD_AXI4_Lite_ER_0_0_synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/mainBD_AXI4_Lite_ER_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mainBD_microblaze_0_0_synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/mainBD_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mainBD_axi_gpio_0_0_synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/mainBD_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mainBD_xbar_0_synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/mainBD_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mainBD_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/mainBD_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mainBD_lmb_bram_0_synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/mainBD_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mainBD_ilmb_v10_0_synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/mainBD_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mainBD_dlmb_v10_0_synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/mainBD_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="mainBD_ilmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="mainBD_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/mainBD_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mainBD_clk_wiz_1_0_synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/mainBD_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mainBD_rst_clk_wiz_1_100M_0_synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/mainBD_rst_clk_wiz_1_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mainBD_mdm_1_0_synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/mainBD_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="mainBD_axi_uart16550_0_0_synth_1"/>
+		<Parent Id="mainBD_AXI4_Lite_ER_0_0_synth_1"/>
+		<Parent Id="mainBD_microblaze_0_0_synth_1"/>
+		<Parent Id="mainBD_axi_gpio_0_0_synth_1"/>
+		<Parent Id="mainBD_xbar_0_synth_1"/>
+		<Parent Id="mainBD_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="mainBD_lmb_bram_0_synth_1"/>
+		<Parent Id="mainBD_ilmb_v10_0_synth_1"/>
+		<Parent Id="mainBD_dlmb_v10_0_synth_1"/>
+		<Parent Id="mainBD_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="mainBD_clk_wiz_1_0_synth_1"/>
+		<Parent Id="mainBD_rst_clk_wiz_1_100M_0_synth_1"/>
+		<Parent Id="mainBD_mdm_1_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="mainBD_axi_uart16550_0_0_synth_1"/>
+		<Parent Id="mainBD_AXI4_Lite_ER_0_0_synth_1"/>
+		<Parent Id="mainBD_microblaze_0_0_synth_1"/>
+		<Parent Id="mainBD_axi_gpio_0_0_synth_1"/>
+		<Parent Id="mainBD_xbar_0_synth_1"/>
+		<Parent Id="mainBD_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="mainBD_lmb_bram_0_synth_1"/>
+		<Parent Id="mainBD_ilmb_v10_0_synth_1"/>
+		<Parent Id="mainBD_dlmb_v10_0_synth_1"/>
+		<Parent Id="mainBD_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="mainBD_clk_wiz_1_0_synth_1"/>
+		<Parent Id="mainBD_rst_clk_wiz_1_100M_0_synth_1"/>
+		<Parent Id="mainBD_mdm_1_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

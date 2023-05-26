@@ -70,6 +70,8 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "mainBD_xbar_0_synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 4
+set_msg_config -id {HDL-1065} -limit 10000
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
 OPTRACE "Creating in-memory project" START { }
@@ -85,7 +87,10 @@ set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part xilinx.com:kcu116:part0:1.5 [current_project]
-set_property ip_repo_paths d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/ip_repo/AXI4_Lite_ER_5_0 [current_project]
+set_property ip_repo_paths {
+  d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/ip_repo/AXI4_Lite_CNT_LED_1_0
+  d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/ip_repo/AXI4_Lite_ER_5_0
+} [current_project]
 update_ip_catalog
 set_property ip_output_repo d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]

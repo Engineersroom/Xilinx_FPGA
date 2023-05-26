@@ -70,6 +70,8 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 4
+set_msg_config -id {HDL-1065} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xcku5p-ffvb676-2-e
 
@@ -83,7 +85,10 @@ set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part xilinx.com:kcu116:part0:1.5 [current_project]
-set_property ip_repo_paths d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/ip_repo/AXI4_Lite_ER_5_0 [current_project]
+set_property ip_repo_paths {
+  d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/ip_repo/AXI4_Lite_CNT_LED_1_0
+  d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/ip_repo/AXI4_Lite_ER_5_0
+} [current_project]
 update_ip_catalog
 set_property ip_output_repo d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
@@ -94,9 +99,6 @@ add_files D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Micro
 set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_microblaze_0_0/mainBD_microblaze_0_0.xdc]
 set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_microblaze_0_0/mainBD_microblaze_0_0_ooc_debug.xdc]
 set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_microblaze_0_0/mainBD_microblaze_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_axi_uart16550_0_0/mainBD_axi_uart16550_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_axi_uart16550_0_0/mainBD_axi_uart16550_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_axi_uart16550_0_0/mainBD_axi_uart16550_0_0.xdc]
 set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_axi_gpio_0_0/mainBD_axi_gpio_0_0_board.xdc]
 set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_axi_gpio_0_0/mainBD_axi_gpio_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_axi_gpio_0_0/mainBD_axi_gpio_0_0.xdc]
@@ -114,6 +116,9 @@ set_property used_in_implementation false [get_files -all d:/Personal/FPGA/Xilin
 set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_rst_clk_wiz_1_100M_0/mainBD_rst_clk_wiz_1_100M_0.xdc]
 set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_rst_clk_wiz_1_100M_0/mainBD_rst_clk_wiz_1_100M_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_xbar_0/mainBD_xbar_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_axi_uartlite_0_0/mainBD_axi_uartlite_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_axi_uartlite_0_0/mainBD_axi_uartlite_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_axi_uartlite_0_0/mainBD_axi_uartlite_0_0.xdc]
 set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/mainBD_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/ip/mainBD_microblaze_0_0/data/mb_bootloop_le.elf]
 
@@ -132,6 +137,8 @@ set_property used_in_implementation false [get_files D:/Personal/FPGA/XilinxFPGA
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.srcs/utils_1/imports/synth_1/mainBD_wrapper.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

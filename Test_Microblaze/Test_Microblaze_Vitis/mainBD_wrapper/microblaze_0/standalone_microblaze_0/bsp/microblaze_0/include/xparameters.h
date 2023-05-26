@@ -467,8 +467,8 @@
 
 /******************************************************************/
 
-#define STDIN_BASEADDRESS 0x44A10000
-#define STDOUT_BASEADDRESS 0x44A10000
+#define STDIN_BASEADDRESS 0x40600000
+#define STDOUT_BASEADDRESS 0x40600000
 
 /******************************************************************/
 
@@ -480,13 +480,13 @@
  
  
 /******************************************************************/
-/* Definitions for driver AXI4_LITE_ER */
-#define XPAR_AXI4_LITE_ER_NUM_INSTANCES 1
+/* Definitions for driver AXI4_LITE_CNT_LED */
+#define XPAR_AXI4_LITE_CNT_LED_NUM_INSTANCES 1
 
-/* Definitions for peripheral AXI4_LITE_ER_0 */
-#define XPAR_AXI4_LITE_ER_0_DEVICE_ID 0
-#define XPAR_AXI4_LITE_ER_0_S00_AXI_BASEADDR 0x44A00000
-#define XPAR_AXI4_LITE_ER_0_S00_AXI_HIGHADDR 0x44A0FFFF
+/* Definitions for peripheral AXI4_LITE_CNT_LED_0 */
+#define XPAR_AXI4_LITE_CNT_LED_0_DEVICE_ID 0
+#define XPAR_AXI4_LITE_CNT_LED_0_S00_AXI_BASEADDR 0x44A00000
+#define XPAR_AXI4_LITE_CNT_LED_0_S00_AXI_HIGHADDR 0x44A0FFFF
 
 
 /******************************************************************/
@@ -600,26 +600,27 @@
 
 /******************************************************************/
 
-/* Definitions for driver UARTNS550 */
-#define XPAR_XUARTNS550_NUM_INSTANCES 1U
-#define XPAR_XUARTNS550_CLOCK_HZ 100000000U
+/* Definitions for driver UARTLITE */
+#define XPAR_XUARTLITE_NUM_INSTANCES 1U
 
-/* Definitions for peripheral AXI_UART16550_0 */
-#define XPAR_AXI_UART16550_0_DEVICE_ID 0U
-#define XPAR_AXI_UART16550_0_BASEADDR 0x44A10000U
-#define XPAR_AXI_UART16550_0_HIGHADDR 0x44A1FFFFU
-#define XPAR_AXI_UART16550_0_CLOCK_FREQ_HZ 100000000U
+/* Definitions for peripheral AXI_UARTLITE_0 */
+#define XPAR_AXI_UARTLITE_0_DEVICE_ID 0U
+#define XPAR_AXI_UARTLITE_0_BASEADDR 0x40600000U
+#define XPAR_AXI_UARTLITE_0_HIGHADDR 0x4060FFFFU
+#define XPAR_AXI_UARTLITE_0_BAUDRATE 115200U
+#define XPAR_AXI_UARTLITE_0_USE_PARITY 0U
+#define XPAR_AXI_UARTLITE_0_ODD_PARITY 0U
+#define XPAR_AXI_UARTLITE_0_DATA_BITS 8U
+
+/* Canonical definitions for peripheral AXI_UARTLITE_0 */
+#define XPAR_UARTLITE_0_DEVICE_ID 0U
+#define XPAR_UARTLITE_0_BASEADDR 0x40600000U
+#define XPAR_UARTLITE_0_HIGHADDR 0x4060FFFFU
+#define XPAR_UARTLITE_0_BAUDRATE 115200U
+#define XPAR_UARTLITE_0_USE_PARITY 0U
+#define XPAR_UARTLITE_0_ODD_PARITY 0U
+#define XPAR_UARTLITE_0_DATA_BITS 8U
 
 
 /******************************************************************/
-
-/* Canonical definitions for peripheral AXI_UART16550_0 */
-#define XPAR_UARTNS550_0_DEVICE_ID 0U
-#define XPAR_UARTNS550_0_BASEADDR 0x44A10000U
-#define XPAR_UARTNS550_0_HIGHADDR 0x44A1FFFFU
-#define XPAR_UARTNS550_0_CLOCK_FREQ_HZ XPAR_AXI_UART16550_0_CLOCK_FREQ_HZ
-
-
-/******************************************************************/
-
 #endif  /* end of protection macro */

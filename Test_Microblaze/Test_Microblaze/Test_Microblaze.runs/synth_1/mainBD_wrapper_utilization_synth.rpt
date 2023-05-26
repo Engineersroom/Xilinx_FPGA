@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Wed May 24 16:10:13 2023
+| Date         : Thu May 25 19:39:53 2023
 | Host         : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file mainBD_wrapper_utilization_synth.rpt -pb mainBD_wrapper_utilization_synth.pb
 | Design       : mainBD_wrapper
@@ -96,7 +96,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 +------------+------+-------+------------+-----------+-------+
 |  Site Type | Used | Fixed | Prohibited | Available | Util% |
 +------------+------+-------+------------+-----------+-------+
-| Bonded IOB |   12 |     0 |          0 |       280 |  4.29 |
+| Bonded IOB |   20 |     0 |          0 |       280 |  7.14 |
 +------------+------+-------+------------+-----------+-------+
 
 
@@ -155,32 +155,32 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| INBUF    |    7 |                 I/O |
-| IBUFCTRL |    7 |              Others |
-| OBUF     |    5 |                 I/O |
+| INBUF    |   11 |                 I/O |
+| IBUFCTRL |   11 |              Others |
+| OBUF     |    9 |                 I/O |
 +----------+------+---------------------+
 
 
 9. Black Boxes
 --------------
 
-+-----------------------------+------+
-|           Ref Name          | Used |
-+-----------------------------+------+
-| mainBD_xbar_0               |    1 |
-| mainBD_rst_clk_wiz_1_100M_0 |    1 |
-| mainBD_microblaze_0_0       |    1 |
-| mainBD_mdm_1_0              |    1 |
-| mainBD_lmb_bram_0           |    1 |
-| mainBD_ilmb_v10_0           |    1 |
-| mainBD_ilmb_bram_if_cntlr_0 |    1 |
-| mainBD_dlmb_v10_0           |    1 |
-| mainBD_dlmb_bram_if_cntlr_0 |    1 |
-| mainBD_clk_wiz_1_0          |    1 |
-| mainBD_axi_uart16550_0_0    |    1 |
-| mainBD_axi_gpio_0_0         |    1 |
-| mainBD_AXI4_Lite_ER_0_0     |    1 |
-+-----------------------------+------+
++------------------------------+------+
+|           Ref Name           | Used |
++------------------------------+------+
+| mainBD_xbar_0                |    1 |
+| mainBD_rst_clk_wiz_1_100M_0  |    1 |
+| mainBD_microblaze_0_0        |    1 |
+| mainBD_mdm_1_0               |    1 |
+| mainBD_lmb_bram_0            |    1 |
+| mainBD_ilmb_v10_0            |    1 |
+| mainBD_ilmb_bram_if_cntlr_0  |    1 |
+| mainBD_dlmb_v10_0            |    1 |
+| mainBD_dlmb_bram_if_cntlr_0  |    1 |
+| mainBD_clk_wiz_1_0           |    1 |
+| mainBD_axi_uartlite_0_0      |    1 |
+| mainBD_axi_gpio_0_0          |    1 |
+| mainBD_AXI4_Lite_CNT_LED_0_8 |    1 |
++------------------------------+------+
 
 
 10. Instantiated Netlists

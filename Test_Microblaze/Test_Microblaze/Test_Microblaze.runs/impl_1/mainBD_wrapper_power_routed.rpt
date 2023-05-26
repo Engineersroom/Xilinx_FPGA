@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date             : Wed May 24 16:12:12 2023
+| Date             : Thu May 25 19:41:53 2023
 | Host             : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 | Command          : report_power -file mainBD_wrapper_power_routed.rpt -pb mainBD_wrapper_power_summary_routed.pb -rpx mainBD_wrapper_power_routed.rpx
 | Design           : mainBD_wrapper
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.611        |
+| Total On-Chip Power (W)  | 0.613        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.137        |
+| Dynamic (W)              | 0.138        |
 | Device Static (W)        | 0.474        |
 | Effective TJA (C/W)      | 1.7          |
 | Max Ambient (C)          | 98.9         |
@@ -53,20 +53,20 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.008 |        7 |       --- |             --- |
-| CLB Logic                |     0.004 |     4516 |       --- |             --- |
-|   LUT as Logic           |     0.002 |     1546 |    216960 |            0.71 |
+| CLB Logic                |     0.004 |     4563 |       --- |             --- |
+|   LUT as Logic           |     0.002 |     1547 |    216960 |            0.71 |
 |   LUT as Distributed RAM |     0.002 |       64 |     99840 |            0.06 |
-|   LUT as Shift Register  |    <0.001 |       82 |     99840 |            0.08 |
-|   Register               |    <0.001 |     1766 |    433920 |            0.41 |
-|   CARRY8                 |    <0.001 |       21 |     27120 |            0.08 |
-|   Others                 |    <0.001 |      446 |       --- |             --- |
-|   F7/F8 Muxes            |     0.000 |      108 |    216960 |            0.05 |
-| Signals                  |     0.006 |     3253 |       --- |             --- |
-| Block RAM                |     0.015 |       32 |       480 |            6.67 |
+|   LUT as Shift Register  |    <0.001 |       84 |     99840 |            0.08 |
+|   Register               |    <0.001 |     1696 |    433920 |            0.39 |
+|   CARRY8                 |    <0.001 |       61 |     27120 |            0.22 |
+|   Others                 |    <0.001 |      457 |       --- |             --- |
+|   F7/F8 Muxes            |     0.000 |      109 |    216960 |            0.05 |
+| Signals                  |     0.006 |     3231 |       --- |             --- |
+| Block RAM                |     0.016 |       32 |       480 |            6.67 |
 | MMCM                     |     0.098 |        0 |       --- |             --- |
-| I/O                      |     0.005 |       14 |       280 |            5.00 |
+| I/O                      |     0.007 |       22 |       280 |            7.86 |
 | Static Power             |     0.474 |          |           |                 |
-| Total                    |     0.611 |          |           |                 |
+| Total                    |     0.613 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -76,12 +76,12 @@ Table of Contents
 +------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source     | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint     |       0.850 |     0.179 |       0.040 |      0.139 |       NA    | Unspecified | NA         |
+| Vccint     |       0.850 |     0.178 |       0.039 |      0.139 |       NA    | Unspecified | NA         |
 | Vccint_io  |       0.850 |     0.036 |       0.001 |      0.035 |       NA    | Unspecified | NA         |
 | Vccbram    |       0.850 |     0.002 |       0.000 |      0.002 |       NA    | Unspecified | NA         |
 | Vccaux     |       1.800 |     0.183 |       0.054 |      0.128 |       NA    | Unspecified | NA         |
 | Vccaux_io  |       1.800 |     0.033 |       0.002 |      0.031 |       NA    | Unspecified | NA         |
-| Vcco33     |       3.300 |     0.007 |       0.000 |      0.007 |       NA    | Unspecified | NA         |
+| Vcco33     |       3.300 |     0.008 |       0.001 |      0.007 |       NA    | Unspecified | NA         |
 | Vcco25     |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18     |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15     |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -151,14 +151,14 @@ Table of Contents
 +-------------------------------+-----------+
 | Name                          | Power (W) |
 +-------------------------------+-----------+
-| mainBD_wrapper                |     0.137 |
+| mainBD_wrapper                |     0.138 |
 |   mainBD_i                    |     0.135 |
-|     axi_uart16550_0           |     0.002 |
-|       U0                      |     0.002 |
+|     AXI4_Lite_CNT_LED_0       |     0.002 |
+|       inst                    |     0.002 |
 |     clk_wiz_1                 |     0.101 |
 |       inst                    |     0.101 |
-|     microblaze_0              |     0.014 |
-|       U0                      |     0.014 |
+|     microblaze_0              |     0.013 |
+|       U0                      |     0.013 |
 |     microblaze_0_local_memory |     0.016 |
 |       lmb_bram                |     0.016 |
 +-------------------------------+-----------+

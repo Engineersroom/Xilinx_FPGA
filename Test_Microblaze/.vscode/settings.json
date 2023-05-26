@@ -4,6 +4,10 @@
         "xil_printf.h": "c",
         "xparameters.h": "c",
         "xil_io.h": "c",
-        "xgpio.h": "c"
+        "xgpio.h": "c",
+        "xstatus.h": "c",
+        "axi4_lite_cnt_led.h": "c",
+        "xuartns550_l.h": "c",
+        "xuartlite.h": "c"
     }
 }

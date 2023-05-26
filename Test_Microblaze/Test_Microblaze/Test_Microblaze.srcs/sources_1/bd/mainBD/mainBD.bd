@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x706A5D26FEB4A149",
+      "boundary_crc": "0xAA972973003D1C75",
       "device": "xcku5p-ffvb676-2-e",
       "gen_directory": "../../../../Test_Microblaze.gen/sources_1/bd/mainBD",
       "name": "mainBD",
@@ -11,9 +11,7 @@
       "validated": "true"
     },
     "design_tree": {
-      "AXI4_Lite_ER_0": "",
       "microblaze_0": "",
-      "axi_uart16550_0": "",
       "axi_gpio_0": "",
       "xlslice_0": "",
       "xlslice_1": "",
@@ -35,7 +33,14 @@
         "m00_couplers": {},
         "m01_couplers": {},
         "m02_couplers": {}
-      }
+      },
+      "AXI_Control_LED_0": "",
+      "AXI_Control_LED_1": "",
+      "AXI_Control_LED_2": "",
+      "AXI_Control_LED_3": "",
+      "xlconcat_0": "",
+      "AXI4_Lite_CNT_LED_0": "",
+      "axi_uartlite_0": ""
     },
     "interface_ports": {
       "push_buttons_5bits": {
@@ -54,17 +59,7 @@
       "rs232_uart": {
         "mode": "Master",
         "vlnv_bus_definition": "xilinx.com:interface:uart:1.0",
-        "vlnv": "xilinx.com:interface:uart_rtl:1.0",
-        "port_maps": {
-          "RxD": {
-            "physical_name": "rs232_uart_rxd",
-            "direction": "I"
-          },
-          "TxD": {
-            "physical_name": "rs232_uart_txd",
-            "direction": "O"
-          }
-        }
+        "vlnv": "xilinx.com:interface:uart_rtl:1.0"
       },
       "default_sysclk1_300": {
         "mode": "Slave",
@@ -87,6 +82,21 @@
           "CLK_P": {
             "physical_name": "default_sysclk1_300_clk_p",
             "direction": "I"
+          }
+        }
+      },
+      "rs232_uart_0": {
+        "mode": "Master",
+        "vlnv_bus_definition": "xilinx.com:interface:uart:1.0",
+        "vlnv": "xilinx.com:interface:uart_rtl:1.0",
+        "port_maps": {
+          "RxD": {
+            "physical_name": "rs232_uart_0_rxd",
+            "direction": "I"
+          },
+          "TxD": {
+            "physical_name": "rs232_uart_0_txd",
+            "direction": "O"
           }
         }
       }
@@ -124,15 +134,41 @@
             "value": "ACTIVE_HIGH"
           }
         }
+      },
+      "GPIO_LED_0": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "GPIO_LED_1": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "GPIO_LED_2": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "GPIO_LED_3": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "GPIO_DIP_SW0": {
+        "direction": "I"
+      },
+      "GPIO_DIP_SW1": {
+        "direction": "I"
+      },
+      "GPIO_DIP_SW2": {
+        "direction": "I"
+      },
+      "GPIO_DIP_SW3": {
+        "direction": "I"
       }
     },
     "components": {
-      "AXI4_Lite_ER_0": {
-        "vlnv": "xilinx.com:user:AXI4_Lite_ER:5.0",
-        "xci_name": "mainBD_AXI4_Lite_ER_0_0",
-        "xci_path": "ip\\mainBD_AXI4_Lite_ER_0_0\\mainBD_AXI4_Lite_ER_0_0.xci",
-        "inst_hier_path": "AXI4_Lite_ER_0"
-      },
       "microblaze_0": {
         "vlnv": "xilinx.com:ip:microblaze:11.0",
         "xci_name": "mainBD_microblaze_0_0",
@@ -204,20 +240,6 @@
           "KEEP_HIERARCHY": {
             "value": "yes",
             "value_src": "default"
-          }
-        }
-      },
-      "axi_uart16550_0": {
-        "vlnv": "xilinx.com:ip:axi_uart16550:2.0",
-        "xci_name": "mainBD_axi_uart16550_0_0",
-        "xci_path": "ip\\mainBD_axi_uart16550_0_0\\mainBD_axi_uart16550_0_0.xci",
-        "inst_hier_path": "axi_uart16550_0",
-        "parameters": {
-          "UART_BOARD_INTERFACE": {
-            "value": "rs232_uart"
-          },
-          "USE_BOARD_FLOW": {
-            "value": "true"
           }
         }
       },
@@ -960,6 +982,102 @@
             ]
           }
         }
+      },
+      "AXI_Control_LED_0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "mainBD_xlslice_0_2",
+        "xci_path": "ip\\mainBD_xlslice_0_2\\mainBD_xlslice_0_2.xci",
+        "inst_hier_path": "AXI_Control_LED_0",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "AXI_Control_LED_1": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "mainBD_AXI_Control_LED_0_0",
+        "xci_path": "ip\\mainBD_AXI_Control_LED_0_0\\mainBD_AXI_Control_LED_0_0.xci",
+        "inst_hier_path": "AXI_Control_LED_1",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "1"
+          },
+          "DIN_TO": {
+            "value": "1"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "AXI_Control_LED_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "mainBD_AXI_Control_LED_0_1",
+        "xci_path": "ip\\mainBD_AXI_Control_LED_0_1\\mainBD_AXI_Control_LED_0_1.xci",
+        "inst_hier_path": "AXI_Control_LED_2",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "2"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "AXI_Control_LED_3": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "mainBD_AXI_Control_LED_0_2",
+        "xci_path": "ip\\mainBD_AXI_Control_LED_0_2\\mainBD_AXI_Control_LED_0_2.xci",
+        "inst_hier_path": "AXI_Control_LED_3",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "3"
+          },
+          "DIN_TO": {
+            "value": "3"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "mainBD_xlconcat_0_0",
+        "xci_path": "ip\\mainBD_xlconcat_0_0\\mainBD_xlconcat_0_0.xci",
+        "inst_hier_path": "xlconcat_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "4"
+          }
+        }
+      },
+      "AXI4_Lite_CNT_LED_0": {
+        "vlnv": "xilinx.com:user:AXI4_Lite_CNT_LED:5.1",
+        "xci_name": "mainBD_AXI4_Lite_CNT_LED_0_8",
+        "xci_path": "ip\\mainBD_AXI4_Lite_CNT_LED_0_8\\mainBD_AXI4_Lite_CNT_LED_0_8.xci",
+        "inst_hier_path": "AXI4_Lite_CNT_LED_0"
+      },
+      "axi_uartlite_0": {
+        "vlnv": "xilinx.com:ip:axi_uartlite:2.0",
+        "xci_name": "mainBD_axi_uartlite_0_0",
+        "xci_path": "ip\\mainBD_axi_uartlite_0_0\\mainBD_axi_uartlite_0_0.xci",
+        "inst_hier_path": "axi_uartlite_0",
+        "parameters": {
+          "C_BAUDRATE": {
+            "value": "115200"
+          },
+          "UARTLITE_BOARD_INTERFACE": {
+            "value": "rs232_uart"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          }
+        }
       }
     },
     "interface_nets": {
@@ -969,10 +1087,10 @@
           "axi_gpio_0/GPIO"
         ]
       },
-      "axi_uart16550_0_UART": {
+      "axi_uartlite_0_UART": {
         "interface_ports": [
-          "rs232_uart",
-          "axi_uart16550_0/UART"
+          "rs232_uart_0",
+          "axi_uartlite_0/UART"
         ]
       },
       "default_sysclk1_300_1": {
@@ -990,7 +1108,7 @@
       "microblaze_0_axi_periph_M00_AXI": {
         "interface_ports": [
           "microblaze_0_axi_periph/M00_AXI",
-          "AXI4_Lite_ER_0/S00_AXI"
+          "AXI4_Lite_CNT_LED_0/S00_AXI"
         ]
       },
       "microblaze_0_axi_periph_M01_AXI": {
@@ -1002,7 +1120,7 @@
       "microblaze_0_axi_periph_M02_AXI": {
         "interface_ports": [
           "microblaze_0_axi_periph/M02_AXI",
-          "axi_uart16550_0/S_AXI"
+          "axi_uartlite_0/S_AXI"
         ]
       },
       "microblaze_0_debug": {
@@ -1025,6 +1143,63 @@
       }
     },
     "nets": {
+      "AXI4_Lite_CNT_LED_0_led": {
+        "ports": [
+          "AXI4_Lite_CNT_LED_0/led",
+          "AXI_Control_LED_3/Din",
+          "AXI_Control_LED_2/Din",
+          "AXI_Control_LED_1/Din",
+          "AXI_Control_LED_0/Din"
+        ]
+      },
+      "AXI_Control_LED_0_Dout": {
+        "ports": [
+          "AXI_Control_LED_0/Dout",
+          "GPIO_LED_0"
+        ]
+      },
+      "AXI_Control_LED_1_Dout": {
+        "ports": [
+          "AXI_Control_LED_1/Dout",
+          "GPIO_LED_1"
+        ]
+      },
+      "AXI_Control_LED_2_Dout": {
+        "ports": [
+          "AXI_Control_LED_2/Dout",
+          "GPIO_LED_2"
+        ]
+      },
+      "AXI_Control_LED_3_Dout": {
+        "ports": [
+          "AXI_Control_LED_3/Dout",
+          "GPIO_LED_3"
+        ]
+      },
+      "GPIO_DIP_SW0_1": {
+        "ports": [
+          "GPIO_DIP_SW0",
+          "xlconcat_0/In0"
+        ]
+      },
+      "GPIO_DIP_SW1_1": {
+        "ports": [
+          "GPIO_DIP_SW1",
+          "xlconcat_0/In1"
+        ]
+      },
+      "GPIO_DIP_SW2_1": {
+        "ports": [
+          "GPIO_DIP_SW2",
+          "xlconcat_0/In2"
+        ]
+      },
+      "GPIO_DIP_SW3_1": {
+        "ports": [
+          "GPIO_DIP_SW3",
+          "xlconcat_0/In3"
+        ]
+      },
       "axi_gpio_0_gpio2_io_o": {
         "ports": [
           "axi_gpio_0/gpio2_io_o",
@@ -1053,13 +1228,13 @@
           "microblaze_0_local_memory/LMB_Clk",
           "rst_clk_wiz_1_100M/slowest_sync_clk",
           "microblaze_0_axi_periph/S00_ACLK",
-          "AXI4_Lite_ER_0/s00_axi_aclk",
           "microblaze_0_axi_periph/M00_ACLK",
           "microblaze_0_axi_periph/ACLK",
           "axi_gpio_0/s_axi_aclk",
           "microblaze_0_axi_periph/M01_ACLK",
-          "axi_uart16550_0/s_axi_aclk",
-          "microblaze_0_axi_periph/M02_ACLK"
+          "microblaze_0_axi_periph/M02_ACLK",
+          "AXI4_Lite_CNT_LED_0/S00_AXI_ACLK",
+          "axi_uartlite_0/s_axi_aclk"
         ]
       },
       "reset_1": {
@@ -1085,13 +1260,19 @@
         "ports": [
           "rst_clk_wiz_1_100M/peripheral_aresetn",
           "microblaze_0_axi_periph/S00_ARESETN",
-          "AXI4_Lite_ER_0/s00_axi_aresetn",
           "microblaze_0_axi_periph/M00_ARESETN",
           "microblaze_0_axi_periph/ARESETN",
           "axi_gpio_0/s_axi_aresetn",
           "microblaze_0_axi_periph/M01_ARESETN",
-          "axi_uart16550_0/s_axi_aresetn",
-          "microblaze_0_axi_periph/M02_ARESETN"
+          "microblaze_0_axi_periph/M02_ARESETN",
+          "AXI4_Lite_CNT_LED_0/S00_AXI_ARESETN",
+          "axi_uartlite_0/s_axi_aresetn"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "AXI4_Lite_CNT_LED_0/sw"
         ]
       },
       "xlslice_0_Dout": {
@@ -1124,8 +1305,8 @@
         "address_spaces": {
           "Data": {
             "segments": {
-              "SEG_AXI4_Lite_ER_0_S00_AXI_reg": {
-                "address_block": "/AXI4_Lite_ER_0/S00_AXI/S00_AXI_reg",
+              "SEG_AXI4_Lite_CNT_LED_0_S00_AXI_reg": {
+                "address_block": "/AXI4_Lite_CNT_LED_0/S00_AXI/S00_AXI_reg",
                 "offset": "0x44A00000",
                 "range": "64K",
                 "offset_base_param": "C_S00_AXI_BASEADDR",
@@ -1136,9 +1317,9 @@
                 "offset": "0x40000000",
                 "range": "64K"
               },
-              "SEG_axi_uart16550_0_Reg": {
-                "address_block": "/axi_uart16550_0/S_AXI/Reg",
-                "offset": "0x44A10000",
+              "SEG_axi_uartlite_0_Reg": {
+                "address_block": "/axi_uartlite_0/S_AXI/Reg",
+                "offset": "0x40600000",
                 "range": "64K"
               },
               "SEG_dlmb_bram_if_cntlr_Mem": {

@@ -115,6 +115,7 @@ proc step_failed { step } {
 OPTRACE "impl_1" END { }
 }
 
+set_msg_config -id {HDL-1065} -limit 10000
 
 OPTRACE "impl_1" START { ROLLUP_1 }
 OPTRACE "Phase: Init Design" START { ROLLUP_AUTO }
@@ -132,7 +133,10 @@ OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
   set_property webtalk.parent_dir D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.cache/wt [current_project]
   set_property parent.project_path D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.xpr [current_project]
-  set_property ip_repo_paths D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/ip_repo/AXI4_Lite_ER_5_0 [current_project]
+  set_property ip_repo_paths {
+  D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/ip_repo/AXI4_Lite_CNT_LED_1_0
+  D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/ip_repo/AXI4_Lite_ER_5_0
+} [current_project]
   update_ip_catalog
   set_property ip_output_repo D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]

@@ -24,3 +24,23 @@ platform clean
 platform generate
 platform clean
 platform generate
+platform config -updatehw {D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/mainBD_wrapper.xsa}
+platform config -updatehw {D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/mainBD_wrapper.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/mainBD_wrapper.xsa}
+platform clean
+platform config -updatehw {D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/mainBD_wrapper.xsa}
+platform clean
+platform config -updatehw {D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/mainBD_wrapper.xsa}
+platform generate
+platform write
+platform clean
+platform generate
+platform active {mainBD_wrapper}
+platform config -updatehw {D:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/mainBD_wrapper.xsa}
+platform generate
+platform clean
+platform generate

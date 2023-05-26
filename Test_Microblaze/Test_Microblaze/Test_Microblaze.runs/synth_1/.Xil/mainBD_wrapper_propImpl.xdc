@@ -821,12 +821,8 @@ set_property src_info {type:XDC file:1 line:509 export:INPUT save:INPUT read:REA
 set_property IOSTANDARD  LVCMOS33  [get_ports "CPU_RESET"] ;# Bank  86 VCCO - VCC3V3   - IO_L10P_AD2P_86
 set_property src_info {type:XDC file:1 line:510 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN C9        [get_ports "GPIO_LED_0"] ;# Bank  86 VCCO - VCC3V3   - IO_L9N_AD3N_86
-set_property src_info {type:XDC file:1 line:511 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_LED_0"] ;# Bank  86 VCCO - VCC3V3   - IO_L9N_AD3N_86
 set_property src_info {type:XDC file:1 line:512 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN D9        [get_ports "GPIO_LED_1"] ;# Bank  86 VCCO - VCC3V3   - IO_L9P_AD3P_86
-set_property src_info {type:XDC file:1 line:513 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_LED_1"] ;# Bank  86 VCCO - VCC3V3   - IO_L9P_AD3P_86
 set_property src_info {type:XDC file:1 line:514 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN D10       [get_ports "CLK_74_25_N"] ;# Bank  86 VCCO - VCC3V3   - IO_L8N_HDGC_AD4N_86
 set_property src_info {type:XDC file:1 line:515 export:INPUT save:INPUT read:READ} [current_design]
@@ -837,12 +833,8 @@ set_property src_info {type:XDC file:1 line:517 export:INPUT save:INPUT read:REA
 set_property IOSTANDARD  LVDS_25   [get_ports "CLK_74_25_P"] ;# Bank  86 VCCO - VCC3V3   - IO_L8P_HDGC_AD4P_86
 set_property src_info {type:XDC file:1 line:518 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN E10       [get_ports "GPIO_LED_2"] ;# Bank  86 VCCO - VCC3V3   - IO_L7N_HDGC_AD5N_86
-set_property src_info {type:XDC file:1 line:519 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_LED_2"] ;# Bank  86 VCCO - VCC3V3   - IO_L7N_HDGC_AD5N_86
 set_property src_info {type:XDC file:1 line:520 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN E11       [get_ports "GPIO_LED_3"] ;# Bank  86 VCCO - VCC3V3   - IO_L7P_HDGC_AD5P_86
-set_property src_info {type:XDC file:1 line:521 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_LED_3"] ;# Bank  86 VCCO - VCC3V3   - IO_L7P_HDGC_AD5P_86
 set_property src_info {type:XDC file:1 line:522 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN F9        [get_ports "GPIO_LED_4"] ;# Bank  86 VCCO - VCC3V3   - IO_L6N_HDGC_AD6N_86
 set_property src_info {type:XDC file:1 line:524 export:INPUT save:INPUT read:READ} [current_design]
@@ -853,20 +845,12 @@ set_property src_info {type:XDC file:1 line:528 export:INPUT save:INPUT read:REA
 set_property PACKAGE_PIN G10       [get_ports "GPIO_LED_7"] ;# Bank  86 VCCO - VCC3V3   - IO_L5P_HDGC_AD7P_86
 set_property src_info {type:XDC file:1 line:530 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN G11       [get_ports "GPIO_DIP_SW0"] ;# Bank  86 VCCO - VCC3V3   - IO_L4N_AD8N_86
-set_property src_info {type:XDC file:1 line:531 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_DIP_SW0"] ;# Bank  86 VCCO - VCC3V3   - IO_L4N_AD8N_86
 set_property src_info {type:XDC file:1 line:532 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN H11       [get_ports "GPIO_DIP_SW1"] ;# Bank  86 VCCO - VCC3V3   - IO_L4P_AD8P_86
-set_property src_info {type:XDC file:1 line:533 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_DIP_SW1"] ;# Bank  86 VCCO - VCC3V3   - IO_L4P_AD8P_86
 set_property src_info {type:XDC file:1 line:534 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN H9        [get_ports "GPIO_DIP_SW2"] ;# Bank  86 VCCO - VCC3V3   - IO_L3N_AD9N_86
-set_property src_info {type:XDC file:1 line:535 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_DIP_SW2"] ;# Bank  86 VCCO - VCC3V3   - IO_L3N_AD9N_86
 set_property src_info {type:XDC file:1 line:536 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN J9        [get_ports "GPIO_DIP_SW3"] ;# Bank  86 VCCO - VCC3V3   - IO_L3P_AD9P_86
-set_property src_info {type:XDC file:1 line:537 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_DIP_SW3"] ;# Bank  86 VCCO - VCC3V3   - IO_L3P_AD9P_86
 set_property src_info {type:XDC file:1 line:538 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN J10       [get_ports "4N9606"] ;# Bank  86 VCCO - VCC3V3   - IO_L2N_AD10N_86
 set_property src_info {type:XDC file:1 line:546 export:INPUT save:INPUT read:READ} [current_design]

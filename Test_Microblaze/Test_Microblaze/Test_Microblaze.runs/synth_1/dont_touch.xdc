@@ -6,14 +6,8 @@
 # Block Designs: bd/mainBD/mainBD.bd
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD || ORIG_REF_NAME==mainBD} -quiet] -quiet
 
-# IP: bd/mainBD/ip/mainBD_AXI4_Lite_ER_0_0/mainBD_AXI4_Lite_ER_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD_AXI4_Lite_ER_0_0 || ORIG_REF_NAME==mainBD_AXI4_Lite_ER_0_0} -quiet] -quiet
-
 # IP: bd/mainBD/ip/mainBD_microblaze_0_0/mainBD_microblaze_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD_microblaze_0_0 || ORIG_REF_NAME==mainBD_microblaze_0_0} -quiet] -quiet
-
-# IP: bd/mainBD/ip/mainBD_axi_uart16550_0_0/mainBD_axi_uart16550_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD_axi_uart16550_0_0 || ORIG_REF_NAME==mainBD_axi_uart16550_0_0} -quiet] -quiet
 
 # IP: bd/mainBD/ip/mainBD_axi_gpio_0_0/mainBD_axi_gpio_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD_axi_gpio_0_0 || ORIG_REF_NAME==mainBD_axi_gpio_0_0} -quiet] -quiet
@@ -59,5 +53,26 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD_xbar
 
 # IP: bd/mainBD/ip/mainBD_microblaze_0_axi_periph_0/mainBD_microblaze_0_axi_periph_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD_microblaze_0_axi_periph_0 || ORIG_REF_NAME==mainBD_microblaze_0_axi_periph_0} -quiet] -quiet
+
+# IP: bd/mainBD/ip/mainBD_xlslice_0_2/mainBD_xlslice_0_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD_xlslice_0_2 || ORIG_REF_NAME==mainBD_xlslice_0_2} -quiet] -quiet
+
+# IP: bd/mainBD/ip/mainBD_AXI_Control_LED_0_0/mainBD_AXI_Control_LED_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD_AXI_Control_LED_0_0 || ORIG_REF_NAME==mainBD_AXI_Control_LED_0_0} -quiet] -quiet
+
+# IP: bd/mainBD/ip/mainBD_AXI_Control_LED_0_1/mainBD_AXI_Control_LED_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD_AXI_Control_LED_0_1 || ORIG_REF_NAME==mainBD_AXI_Control_LED_0_1} -quiet] -quiet
+
+# IP: bd/mainBD/ip/mainBD_AXI_Control_LED_0_2/mainBD_AXI_Control_LED_0_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD_AXI_Control_LED_0_2 || ORIG_REF_NAME==mainBD_AXI_Control_LED_0_2} -quiet] -quiet
+
+# IP: bd/mainBD/ip/mainBD_xlconcat_0_0/mainBD_xlconcat_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD_xlconcat_0_0 || ORIG_REF_NAME==mainBD_xlconcat_0_0} -quiet] -quiet
+
+# IP: bd/mainBD/ip/mainBD_AXI4_Lite_CNT_LED_0_8/mainBD_AXI4_Lite_CNT_LED_0_8.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD_AXI4_Lite_CNT_LED_0_8 || ORIG_REF_NAME==mainBD_AXI4_Lite_CNT_LED_0_8} -quiet] -quiet
+
+# IP: bd/mainBD/ip/mainBD_axi_uartlite_0_0/mainBD_axi_uartlite_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mainBD_axi_uartlite_0_0 || ORIG_REF_NAME==mainBD_axi_uartlite_0_0} -quiet] -quiet
 
 # XDC: d:/Personal/FPGA/XilinxFPGA/Test_Microblaze/Test_Microblaze/Test_Microblaze.gen/sources_1/bd/mainBD/mainBD_ooc.xdc
